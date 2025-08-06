@@ -1,0 +1,20 @@
+/* There are three common ways to apply CSS in a JSX file:
+
+1. Inline styling:
+   - Using a style object inside the JSX.
+   - Example: <div style={{ backgroundColor: 'red' }}>Text</div>
+
+2. External CSS file:
+   - Import the CSS file directly.
+   - Example: import './style.css'
+
+3. CSS Modules (scoped styling):
+   - Import styles from a CSS module file.
+   - Example: import styles from './style.module.css'
+   - Usage: <div className={styles.myClass}></div>
+*/
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
